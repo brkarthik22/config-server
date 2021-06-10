@@ -1,1 +1,7 @@
-Hello Lable -> dev, Profile -> dev
+spring:
+  datasource:
+    url: jdbc:h2:mem:book-service
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
