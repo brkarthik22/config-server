@@ -9,3 +9,11 @@ spring:
     console:
       enabled: true
       path: /h11
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    refresh:
+      enabled: true
